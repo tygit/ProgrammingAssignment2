@@ -3,10 +3,10 @@
 
 ## The first function, makeCacheMatrix creates a special "vector", 
 ## which is really a list containing a function to
-## set the matrix of the vector
-## get the matrix of the vector
-## set the matrix of the inverse
-## get the matrix of the inverse
+## set the value of the matrix
+## get the value of the matrix
+## set the value of the inverse matrix
+## get the value of the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         ix <- NULL
